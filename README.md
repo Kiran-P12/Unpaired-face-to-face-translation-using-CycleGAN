@@ -160,13 +160,9 @@ Using the same base CycleGAN architectures mentioned above, three different face
   <img src="./outputs/female_to_male_2.png" width="800"><br>
 </p>
 
-#### Chaining
-- 
-
 
 ## Code details:
-- The base model architecture is present in the base_mode.ipynb
-- The training notebooks for Ethnicity, age and gender translations are present respectively in the ethnicity_translation.ipynb, age_translation.ipynb and  gender_translation.ipynb.
+- The training notebooks for Ethnicity, age and gender translations are present in notebooks folder respectively as  ethnicity_translation.ipynb, age_translation.ipynb and  gender_translation.ipynb.
 - The final checkpoints for each of the model is present in the checkpoints directory
 - The inference for each of these models and result plots are present in the final_result.ipynb
 
