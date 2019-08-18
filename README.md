@@ -132,6 +132,11 @@ Using the same base CycleGAN architectures mentioned above, three different face
   <img src="./outputs/black_to_white_2.png" width="800"><br>
 </p>
 
+#### Observations:
+- The model is able to change the color of the skin while maintaining the hair color, dress color etc. from the inputs
+- Since the model is trained on the faces of all the ages, its performance is almost uniform across the ages
+- The resolution of the outputs depend on the input image resolutions
+
 ## Age translation
 
 <p align="center">
@@ -144,6 +149,11 @@ Using the same base CycleGAN architectures mentioned above, three different face
   <img src="./outputs/50s_to_20s_1.png" width="800"><br>
   <img src="./outputs/50s_to_20s_2.png" width="800"><br>
 </p>
+
+#### Observations:
+- The model is able to add or remove wrikles, folds and bags under the eyes pretty good accuracy
+- The model doesnot change the color of the hair or the beard although in some cases we might want to change (eg: for 50s to 20s translation, we might want to change the white beard to balck ideally)
+- The model does a better job in converting 50s to 20s rather than 20s to 50s
 
 ## Gender translation
 
@@ -158,6 +168,10 @@ Using the same base CycleGAN architectures mentioned above, three different face
   <img src="./outputs/female_to_male_2.png" width="800"><br>
 </p>
 
+#### Observations:
+- The model is able to add or remove the lipsticks accurately based on the gender
+- The model can change the thickness of the eyebrows and tends to change the skin tone a bit
+- The model is able to add a thin beard for female -> male. But generally struggles to completely remove thick beards for male -> female
 
 ## Code details:
 - The training notebooks for Ethnicity, age and gender translations are present in notebooks folder respectively as  ethnicity_translation.ipynb, age_translation.ipynb and  gender_translation.ipynb.
