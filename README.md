@@ -10,7 +10,7 @@ In this project we develop a generic model based on CycleGAN architecture, which
 
 Source: [UTKFace - Large Scale Face Dataset](https://susanqq.github.io/UTKFace/)
 - Consists of 20,000+ face images (Only single face in one image)
-- All the images are aligned & cropped to contain only the face
+- All the images are aligned & cropped to contain only the face and not the neck or hair parts
 - Images are labelled by age, gender and ethnicity.
 
 
@@ -94,7 +94,7 @@ As mentioned above, there are mainly 2 types of losses. Each loss can be thought
 
 #### Some points to note:
 - In both the generator and discriminator we use Convolutions with stride 2 instead of Maxpooling to prevent any loss of information
-- The Generator and Discriminator are well balanced (by using a little weak discriminator). This allows us to train the Generator and discriminator alternatively (1 epoch each) making the training process simpler.
+- The Generator and Discriminator are well balanced (by using a little weak discriminator). This allows us to train the Generator and discriminator alternatively (**1 epoch each**) making the training process simpler.
 - The whole model is created such that the same kernels can be used for any of the input image sizes, making the progressive training possible. 
 
 ## Training:
@@ -113,6 +113,7 @@ Using the same base CycleGAN architectures mentioned above, three different face
   - 96x96 for 30 epochs
   - 128x128 for 20 epochs
   - 256x256 for 20 epochs
+  
 #### Environment:
 - Used Tensor-flow slim library
 - Trained the models on Google cloud platform
