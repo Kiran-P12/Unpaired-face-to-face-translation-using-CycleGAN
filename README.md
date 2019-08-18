@@ -153,7 +153,7 @@ Using the same base CycleGAN architectures mentioned above, three different face
   <img src="./outputs/male_to_female_2.png" width="800"><br>
 </p>
 <p align="center">
-  <b><I>50s to 20s</I></b>
+  <b><I>Female to male</I></b>
   <img src="./outputs/female_to_male_1.png" width="800"><br>
   <img src="./outputs/female_to_male_2.png" width="800"><br>
 </p>
