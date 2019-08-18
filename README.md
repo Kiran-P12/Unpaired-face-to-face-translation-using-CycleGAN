@@ -121,17 +121,44 @@ Using the same base CycleGAN architectures mentioned above, three different face
 ## Results:
 
 #### Ethnicity translation
-- White to black
-- Black to white
-- Cycle consistency
+<p align="center">
+  <b><I>White to Black</I></b>
+  <img src="./outputs/white_to_black_1.png" width="800"><br>
+  <br><br>
+  <img src="./outputs/white_to_black_2.png" width="800"><br>
+</p>
+<p align="center">
+  <b><I>Black to White</I></b>
+  <img src="./outputs/black_to_white_1.png" width="800"><br>
+  <br><br>
+  <img src="./outputs/black_to_white_2.png" width="800"><br>
+</p>
 #### Age translation
-- 20s to 50s
-- 50s to 20s
-- Cycle consistency
+<p align="center">
+  <b><I>20s to 50s</I></b>
+  <img src="./outputs/20s_to_50s.png" width="800"><br>
+  <br><br>
+  <img src="./outputs/20s_to_50s_2.png" width="800"><br>
+</p>
+<p align="center">
+  <b><I>50s to 20s</I></b>
+  <img src="./outputs/50s_to_20s_1.png" width="800"><br>
+  <br><br>
+  <img src="./outputs/50s_to_20s_2.png" width="800"><br>
+</p>
 #### Gender translation
-- Male to female
-- Female to male
-- Cycle consistency
+<p align="center">
+  <b><I>Male to Female</I></b>
+  <img src="./outputs/male_to_female_1.png" width="800"><br>
+  <br><br>
+  <img src="./outputs/male_to_female_2.png" width="800"><br>
+</p>
+<p align="center">
+  <b><I>50s to 20s</I></b>
+  <img src="./outputs/female_to_male_1.png" width="800"><br>
+  <br><br>
+  <img src="./outputs/female_to_male_2.png" width="800"><br>
+</p>
 
 #### Chaining
 - 
